@@ -3,15 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Personal Portfolio Web</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>Learning is fun!</p>
-<<<<<<< HEAD
-    <a href="mailto:meganealexis12@gmail.com">Send email</a>
-=======
-    <img src="images/delight.webp">
->>>>>>> 070149a127518354b5a44cc56f3f9464fd15c607
+   <div id="header">
+    <!--<img src="images/meg.jpg">-->
+    <div class="container">
+    <nav>
+        <img src="images/MEgane (1) (1).png" class="logo" width="110px" height="110px">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+           </ul>
+        </nav>
+        <div class="header-text">
+            <p>Front end engineer</p>
+            <h1>Hi, my name is <span>Megane</span><br>Alexis from USA</h1>
+        </div>
+      </div>
+   </div>
+   <!--about section-->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-one">
+                <h1 class="title">About me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium aut fuga doloremque quasi veritatis nostrum asperiores ad dolores ut! Maxime, hic. Autem, impedit. Optio, saepe quis. Minima facere exercitationem laboriosam!</p>
+            
+            <div class="tab-title">
+                <p class="tab-links active-links" onclick="clickme('skills')">Skills</p>
+                <p class="tab-links" onclick="clickme('experience')">Experience</p>
+                <p class="tab-links" onclick="clickme('education')">Education</p>
+            </div>
+            <div class="tab-contents" id="skills">
+                <ul>
+                    <li><span>Front end engineer</span><br>Designing Websites</li>
+                    <li><span>App Developer</span><br>Creating android/iOS apps</li>
+                    <li><span>Full stack engineer</span><br>Creating web/app with both front end and back end</li>
+                    
+                </ul>
+
+
+                </div>
+                <div class="tab-contents active-tab" id="experience">
+                    <ul>
+                        <li><span>2024</span><br>Software engineer at Continued.com</li>
+                    
+                    </ul>
+
+
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - Current</span><br>BA in computer Science</li>
+                            <li><span>2024</span><br>CodePAth - Web development</li>
+                            <li><span>2024</span><br>Girl who code - Work prep - Bank of America - Android Development</li>
+                            
+                        </ul>
+    
+    
+                        </div>
+                </div>
+                
+            <div class="about-col-two">
+                <img src="images/meg.jpg">
+                
+            </div>
+                
+            </div>
+        </div>
+        </div>
+        <!--Service section-->
+        <div id="services">
+            <div class="container">
+                <h1 class="title">My services</h1>
+                <div class="services-list">
+                    <div>
+                        <h2>Wed Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ab esse quis excepturi expedita quasi repudiandae ratione aut porro, laboriosam hic est voluptatibus asperiores eos, architecto repellendus.!</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <h2>Android apps</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <h2>Back end development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ab esse quis excepturi expedita quasi repudiandae ratione aut porro, laboriosam hic est voluptatibus asperiores eos, architecto repellendus.!</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 </body>
+<script src="script.js"></script>
 </html>
