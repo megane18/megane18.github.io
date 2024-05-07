@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Web</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f042120f46.js" crossorigin="anonymous"></script>
 </head>
 <body>
    <div id="header">
@@ -83,24 +84,95 @@
                 <h1 class="title">My services</h1>
                 <div class="services-list">
                     <div>
-                        <h2>Wed Development</h2>
+                        <i class="fa-brands fa-webflow"></i>
+                        <h2>Wed Development <i class="fa-brands fa-webflow"></i></h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ab esse quis excepturi expedita quasi repudiandae ratione aut porro, laboriosam hic est voluptatibus asperiores eos, architecto repellendus.!</p>
                         <a href="#">Learn more</a>
                     </div>
                     <div>
-                        <h2>Android apps</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <i class="fa-solid fa-mobile-button"></i>
+                        <h2>Android apps <i class="fa-solid fa-mobile-button"></i></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ab esse quis excepturi expedita quasi repudiandae ratione aut porro, laboriosam hic est voluptatibus asperiores eos, architecto repellendus.!</p>
                         <a href="#">Learn more</a>
                     </div>
                     <div>
-                        <h2>Back end development</h2>
+                        <i class="fa-solid fa-backward"></i>
+                        <h2>Back end development <i class="fa-solid fa-backward"></i></h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ab esse quis excepturi expedita quasi repudiandae ratione aut porro, laboriosam hic est voluptatibus asperiores eos, architecto repellendus.!</p>
                         <a href="#">Learn more</a>
                     </div>
                 </div>
             </div>
         </div>
+<!---Portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="title">My Projects</h1>
+        <div class="project-list">
+        <div class="project">
+            <img src="images/region-sub-saharan-africa-2 (1).jpg">
+            <div class="layer">
+                <h3>Website about the current issue in Sub-Saharan Africa</h3>
+                <p>The crucial link between education and healthcare</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="project">
+            <img src="images/Inventory_Specialist.webp">
+            <div class="layer">
+                <h3>Inventory Management System</h3>
+                <p>The crucial link between education and healthcare</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="project">
+            <img src="images/2.png">
+            <div class="layer">
+                <h3>Java Snake Game</h3>
+                <p>The crucial link between education and healthcare</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!---Contact section-->
+<div id="form">
+    <div class="container">
+        <div class="row">
+            <div class="left">
+                <div class="title">Contact ME</div>
+                <p>you@gmail.com</p>
+                <p>2468101224</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://discord.com/channels/@me"><i class="fa-brands fa-discord"></i></a>
+                </div>
+            </div>
+            <div class="right">
+                <form>
+                    <label for="name"></label>
+                    <div>
+                        <input type="text" name="name" placeholder="Your name" required>
+                    </div>
+                    
+                    <label for="email"></label>
+                    <div>
+                        <input type="text" name="email" placeholder="Your email" required>
 
+                    </div>
+                    <textarea name="message"   rows="6" placeholder="Your message"></textarea>
+                    <button type="submit">submit</button>
+                    
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 <script src="script.js"></script>
 </html>
